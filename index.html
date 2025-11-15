@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sujal Maity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars stars-1"></div>
+  <div class="stars stars-2"></div>
+  <div class="stars stars-3"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">SM<span>.</span></div>
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <div>
+          <p class="eyebrow">Cloud & DevOps Enthusiast</p>
+          <h1>Hey, I'm <span class="accent">Sujal Maity</span>.</h1>
+          <p class="hero-text">
+            I build reliable cloud infrastructure, automate things that get boring,
+            and break stuff only in test environments.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <p class="hero-label">Current focus</p>
+          <h2>AWS • Linux • Docker • CI/CD</h2>
+          <p class="hero-small">
+            Learning by shipping real projects and keeping infra as simple as possible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-intro">
+          I'm a self-taught cloud and DevOps learner, focused on building
+          practical projects on AWS. I enjoy turning messy setups into
+          clean, repeatable deployments using automation and good documentation.
+        </p>
+        <div class="grid two">
+          <div class="card">
+            <h3>What I enjoy</h3>
+            <ul class="list">
+              <li>Designing simple, reliable cloud architectures</li>
+              <li>Automating deployments with CI/CD pipelines</li>
+              <li>Containerizing apps with Docker</li>
+              <li>Learning by breaking and fixing things</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Currently exploring</h3>
+            <ul class="list">
+              <li>AWS (EC2, S3, CloudFront, IAM, Lambda)</li>
+              <li>Linux server administration</li>
+              <li>Infrastructure as Code (Terraform)</li>
+              <li>Monitoring and logging basics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="grid three">
+          <div class="card">
+            <h3>Cloud</h3>
+            <ul class="tag-list">
+              <li>AWS EC2</li>
+              <li>S3 & CloudFront</li>
+              <li>IAM</li>
+              <li>Route 53</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>DevOps</h3>
+            <ul class="tag-list">
+              <li>Linux</li>
+              <li>Shell scripting</li>
+              <li>Docker</li>
+              <li>CI/CD basics</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Programming</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Bash</li>
+              <li>Git & GitHub</li>
+              <li>HTML / CSS / JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-intro">
+          A few projects I use to learn cloud and DevOps. Most are designed to
+          be simple, reproducible, and cheap to run.
+        </p>
+        <div class="grid three">
+          <article class="card project-card">
+            <h3>Portfolio on S3 + CloudFront</h3>
+            <p>
+              Static portfolio site hosted on S3 with CloudFront CDN and Route 53
+              for a custom domain.
+            </p>
+            <ul class="pill-list">
+              <li>AWS S3</li>
+              <li>CloudFront</li>
+              <li>Route 53</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank">Live</a>
+              <a href="#" target="_blank">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <h3>Dockerized Web App</h3>
+            <p>
+              Containerized a simple web app and ran it on an EC2 instance with
+              a hardened Linux setup.
+            </p>
+            <ul class="pill-list">
+              <li>Docker</li>
+              <li>EC2</li>
+              <li>Linux</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank">Live</a>
+              <a href="#" target="_blank">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <h3>CI/CD Demo Pipeline</h3>
+            <p>
+              Simple pipeline that builds and deploys a static site to S3 on
+              every push to the main branch.
+            </p>
+            <ul class="pill-list">
+              <li>GitHub Actions</li>
+              <li>S3</li>
+              <li>Automation</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank">Docs</a>
+              <a href="#" target="_blank">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-intro">
+            Want to talk about a project, collaboration, or just nerd out about
+            cloud and DevOps? Drop me a message.
+          </p>
+        </div>
+        <div class="card contact-card">
+          <p class="contact-label">Preferred channel</p>
+          <a href="mailto:youremail@example.com" class="contact-email">
+            sujalmaity1800@gmail.com
+          </a>
+          <p class="contact-note">
+            I usually reply within 24–48 hours.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Sujal Maity. All rights reserved.</p>
+      <p class="footer-small">
+        Built with HTML, CSS, and a bit of JavaScript. Hosted on AWS.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

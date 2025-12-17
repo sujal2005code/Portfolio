@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://d2qg45fm9xhj7w.cloudfront.net/" target="_blank">
+  <a href="https://sujal2005code.github.io/Portfolio/" target="_blank">
     🔥 <b>Live Demo</b>
   </a>
 </p>
